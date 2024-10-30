@@ -1,0 +1,139 @@
+
+
+/* Radio Button */
+#radio-control-wc-payment-method-options-bictorys {
+    appearance: none;
+    background: #fff;
+    border: 2px solid #50575e;
+    border-radius: 50%;
+    cursor: pointer;
+    display: inline-block;
+    height: 1.5em;
+    margin: inherit;
+    min-height: 24px;
+    min-width: 24px;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-45%);
+    width: 1.5em;
+}
+
+/* Label */
+.bictorys-custom-label {
+    display: flex;
+    flex-direction: row;
+    gap: 0.5rem;
+}
+
+/* Description */
+.bictorys-custom-description {
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.55;
+}
+
+/* Logo */
+.bictorys-custom-logo {
+    height: 24px;
+    max-height: 24px;
+}
+.wp-block-woocommerce-checkout{
+    margin-left: 0  !important;
+    margin-right: 0  !important;
+
+}
+.wc-block-components-text-input input[type=email], .wc-block-components-form .wc-block-components-text-input input[type=text], .wc-block-components-combobox .wc-block-components-combobox-control input.components-combobox-control__input, .wc-block-components-form .wc-block-components-combobox .wc-block-components-combobox-control input.components-combobox-control__input, .wc-block-components-text-input input[type=tel]{
+    border-color: #D9D9D9 !important;
+}
+.wc-block-checkout__contact-fields, .is-large .wc-block-components-sidebar .wc-block-components-panel, .wc-block-checkout__shipping-fields, .wc-block-checkout__shipping-option, .wc-block-checkout__payment-method, .wc-block-checkout__billing-fields, .wc-block-components-order-summary{
+    background: #FAFAFA !important;
+    padding: 20px !important;
+    border-radius: 10px;
+}
+
+.wc-block-checkout__billing-fields, .wc-block-checkout__shipping-option, .wc-block-checkout__payment-method{
+    margin-top: 20px !important;
+}
+.wc-block-components-checkout-step__title:before{
+    display: none !important;
+}
+.wc-block-components-checkout-step--with-step-number .wc-block-components-checkout-step__container:after{
+    display: none !important;
+}
+.wc-block-checkout__payment-method .wc-block-components-radio-control-accordion-option:last-child:after{
+   border-width:0 !important;
+}
+.wc-block-components-form .wc-block-checkout__order-notes.wc-block-components-checkout-step{
+    background: none !important;
+}
+.wc-block-checkout__payment-method .wc-block-components-radio-control.disable-radio-control .wc-block-components-radio-control__option{
+    padding-left: 35px !important;
+}
+
+.wc-block-components-checkout-step__heading{
+    margin-top: 0 !important;
+}
+
+.wc-block-components-title.wc-block-components-title {
+    font-size: 1.35em;
+}
+
+.wc-block-components-totals-wrapper:after{
+    border: none !important;
+}
+.wc-block-components-totals-wrapper{
+    padding-top: 0px !important;
+
+}
+.wc-block-components-order-summary .wc-block-components-order-summary-item__quantity {
+    background: #979797 !important;
+    border:none !important;
+    color: #fff !important;
+    min-height: 25px !important;
+    min-width: 25px !important;
+    padding: 0 0.5em !important;
+    top: 6px !important;
+    letter-spacing: -.04em;
+}
+
+.wc-block-components-order-summary .wc-block-components-panel__button{
+        margin: 0;
+    padding: 0px;
+    background: none;
+    font-size: 1.25em;
+    font-weight: 700;
+}
+.wc-block-components-order-summary .wc-block-components-panel__button:hover, .wc-block-components-order-summary .wc-block-components-panel__button:focus{
+
+    background: none;
+     font-size: 1.25em;
+    font-weight: 700;
+
+}
+.wc-block-components-order-summary .wc-block-components-panel__content{
+    margin-top: 20px;
+}
+
+.wc-block-components-product-details.wc-block-components-product-details{
+    margin: 0 !important;
+}
+
+.wc-block-components-order-summary .wc-block-components-order-summary-item:after{
+    border-color: #50575e;
+}
+.wc-block-components-order-summary .wc-block-components-order-summary-item__image{
+    padding-top: 10px;
+}
+.wc-block-components-product-details__name; .wc-block-checkout__sidebar .wc-block-components-product-name{
+    font-weight: 700 !important;
+}
+.wc-block-components-product-details{
+    font-size: .9em;
+}
+.wc-block-checkout__sidebar .wc-block-components-totals-footer-item{
+    padding: 20px !important;
+    background: #16243D !important;
+    border-radius: 10px;
+    color: #fff;
+}
